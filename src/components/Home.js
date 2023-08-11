@@ -27,7 +27,7 @@ export default function Home() {
   const [books, setBooks] = useState([]);
   useEffect(() => {
     axios
-      .get('http://localhost:5000/')
+      .get('https://be-final.onrender.com/')
       .then((response) => {
         setBooks(response.data);
       })
@@ -38,7 +38,7 @@ export default function Home() {
 
   const deleteBook = (id) => {
     axios
-      .delete('http://localhost:5000/' + id)
+      .delete('https://be-final.onrender.com/' + id)
       .then((response) => {
         console.log(response.data);
       });

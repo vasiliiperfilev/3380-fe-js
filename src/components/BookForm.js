@@ -10,7 +10,7 @@ export default function BookForm() {
       description: e.target.elements.description.value,
     }
     axios
-      .post('http://localhost:5000/', book)
+      .post('https://be-final.onrender.com/', book)
       .then((res) => {
         window.location = '/';
       });
