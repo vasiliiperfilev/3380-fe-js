@@ -50,7 +50,7 @@ export default function Home() {
     <div className="BookList">
       <Header />
       <div className="col-md-11">
-        <a className="btn btn-info float-right" href="/add"
+        <a className="btn btn-info float-right" href="/3380-fe-js/add"
           >+ Add New Book</a><br /><br />
         <hr />
       </div>
