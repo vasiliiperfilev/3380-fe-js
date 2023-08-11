@@ -8,8 +8,8 @@ export default function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/3380-fe-js" exact element={<Home />} />
-        <Route path="/3380-fe-js/add" element={<BookForm />} />
+        <Route path="/" exact element={<Home />} />
+        <Route path="/add" element={<BookForm />} />
       </Routes>
     </BrowserRouter>
   );

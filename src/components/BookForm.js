@@ -12,7 +12,7 @@ export default function BookForm() {
     axios
       .post('https://be-final.onrender.com/', book)
       .then((res) => {
-        window.location = '/3380-fe-js';
+        window.location = '/';
       });
   };
 
